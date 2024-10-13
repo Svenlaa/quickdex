@@ -2,7 +2,7 @@
 
 
 ### Goals of this project
- - [ ] homepage for laragon
+homepage for laragon
  - [x] list all projects
  - [ ] search projects with keyboard
  - [ ] open /{project} with enter
