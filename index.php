@@ -17,10 +17,12 @@
     <input type="text" id="input" autofocus>
 </label> -->
 
-<ul>
-<?php foreach ($directories as $directory): ?>
-    <li>
-        <a href="/<?= $directory ?>/"><?= $directory ?></a>
-    </li>
-<?php endforeach ?>
-</ul>
+<ul></ul>
+
+<script>const directories = <?= json_encode(array_values($directories)) ?> ?? [];</script>
+<script>
+    const listHtml = directories.map(directory => {
+        return `<li><a href="/${directory}">${directory}</a></li>`
+    }).join('');
+    document.querySelector('ul').innerHTML = listHtml ? listHtml : 'No directories found :('  
+</script>
