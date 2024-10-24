@@ -1,12 +1,15 @@
 # Quickdex
 
-
 ### Goals of this project
-homepage for laragon
+show project directories for laragon
  - [x] list all projects
- - [ ] search projects with keyboard
- - [ ] open /{project} with enter
- - [ ] open {project}.test with shift + enter
+ - [x] search projects with keyboard
+ - [x] open /{project} with enter
+ - [x] open {project}.test with ~shift~ ctrl + enter
+ - [x] open /project with click
+ - [ ] open {project}.test with ctrl + click
+ - [ ] search - better match on top
+ - [ ] fuzzy search
 
 ### Setup
 1. get index.php file
