@@ -1,5 +1,9 @@
 # Quickdex
 
+### Setup
+1. download index.php
+2. place index.php in the laragon document root. default: `C:\laragon\www`
+
 ### Goals of this project
 show project directories for laragon
  - [x] list all projects
@@ -10,7 +14,3 @@ show project directories for laragon
  - [ ] open {project}.test with ctrl + click
  - [ ] search - better match on top
  - [ ] fuzzy search
-
-### Setup
-1. get index.php file
-2. spin up a webserver (optional) `php -S 127.0.0.1:4000`
